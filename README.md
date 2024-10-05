@@ -1,6 +1,5 @@
 # CloudUploader-CLI
 
-<<<<<<< HEAD
 Building a **CloudUploader CLI** as Project involves designing a bash-based command-line interface (CLI) tool that can upload files to a cloud storage solution such as AWS S3, Google Cloud Storage, or Azure Blob Storage. Below is a breakdown of how I can structure and build this project.
 
 # Goal
@@ -316,7 +315,8 @@ Javascript:
 ```bash
 node script.js
 ```
+
 =======
 Create a bash-based CLI tool that allows users to quickly upload files to a specified cloud storage solution, providing a seamless upload experience similar to popular storage services.
 
->>>>>>> 3787fd15fe09f087d275e9efb7a76a0a89dcedc2
+> > > > > > > 3787fd15fe09f087d275e9efb7a76a0a89dcedc2
