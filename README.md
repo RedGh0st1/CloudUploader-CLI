@@ -52,7 +52,7 @@ Concepts, I will be familiar with.
 
   **BASH** - (Bourne Again SHell) a widely used command-line sheel and scripting language, primarily found on Unix-based systems like Linux and macOS. It was designed to improve the version of the original bash. It provides users with ui to interact with os through various commands.
 
-```
+```bash
   ls: List files in a directory.
   cd: Change the current directory.
   cp: Copy files or directories.
@@ -75,7 +75,7 @@ Examples:
    - Variables are typically declared without a keyword, and values are assigned using = without spaces.
    - To access the value of a variable, you use the $ symbol before the variable name.
 
-```
+```bash
 Example:
 name="Alice" # Declaring a variable
 echo $name # Accessing the variable's value
@@ -86,7 +86,7 @@ echo $name # Accessing the variable's value
    - Variables in Python do not require a specific keyword for declaration.
    - Python is dynamically typed, so the variable type is inferred from the value assigned.
 
-```
+```python
 Example:
 name = "Alice" # Declaring a string variable
 age = 30 # Declaring an integer variable
@@ -95,7 +95,7 @@ is_logged_in = True # Declaring a boolean variable
 
 3. javascript:
 
-```
+```js
 Example:
 let name = "Alice"; // Declaring a variable with a string value
 const age = 30; // Declaring a constant variable
@@ -106,9 +106,8 @@ var isLoggedIn = true; // Declaring a variable with a boolean value
 
 - TypeScript is a superset of JavaScript, so variables are declared similarly with let, const, and var, but you can also specify types explicitly.
 
-```
-Example:
-let name: string = "Alice"; // Declaring a string variable with a type
+```ts
+Example: let name: string = "Alice"; // Declaring a string variable with a type
 const age: number = 30; // Declaring a number variable with a type
 let isLoggedIn: boolean = true; // Declaring a boolean variable with a type
 ```
@@ -119,7 +118,7 @@ let isLoggedIn: boolean = true; // Declaring a boolean variable with a type
 
 - In Bash, you can use the read command to accept user input.
 
-```
+```bash
 echo "Enter your name:"
 read name
 echo "Hello, $name"
@@ -129,7 +128,7 @@ echo "Hello, $name"
 
 - Python uses the input() function to accept user input.
 
-```
+```python
   name = input("Enter your name: ")
   print(f"Hello, {name}")
 ```
@@ -138,16 +137,16 @@ echo "Hello, $name"
 
 - In a browser environment, you can use the prompt() function to accept user input.
 
-```
-  const userInput = prompt("Enter your name:");
-  console.log("Hello, " + userInput);
+```js
+const userInput = prompt("Enter your name:");
+console.log("Hello, " + userInput);
 ```
 
 4. TypeScript (Browser or Node.js)
 
 Since TypeScript is compiled to JavaScript, user input is handled similarly to JavaScript:
 
-```
+```ts
 	In Browser (same as JavaScript):
 
     const userInput: string = prompt("Enter your name:")!;
@@ -158,7 +157,7 @@ Since TypeScript is compiled to JavaScript, user input is handled similarly to J
 
 In Java, you can use the Scanner class to accept input from the user.
 
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -175,7 +174,7 @@ public class Main {
 
 In Go, you can use fmt.Scanln() to read user input.
 
-```
+```go
 package main
 
 import "fmt"
@@ -226,13 +225,13 @@ print("Hello, Python!")
 
 3. **Run the script** using the Python interpreter:
 
-```python
+```bash
 python script.py
 ```
 
 or Python 3
 
-```python3
+```bash
 python3 script.py
 
 ```
