@@ -318,3 +318,11 @@ Bash
 check if variable exists.
 Use -f to check if a file exists,
 Use ! -f to check if the file does not exist.
+"$gives_you_the_value"
+'$gives_you_the_variable'
+[ space condition space ];
+use [ ] . for strings etc
+(( arithmetic condition ))
+-eq = 0 same as = 0
+if [ $? -eq 0 ]
+$? is the exit status of the last command, and 0 means success.
